@@ -365,6 +365,66 @@ nav ul li a {
   border-radius: 50px;
   background: #fff;
   box-shadow: 10px 30px 50px 0px rgba(0, 0, 0, 0.05);
+  padding: 18px 27px;
+}
+
+.total-customers-cont {
+  display: flex;
+  padding: 18px 27px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.total-customers-cont div {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.total-customers-cont div img {
+  width: 36px;
+  height: 36px;
+  margin-left: -12px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.total-customers-cont h4 {
+  margin: 0;
+  color: #2b2b2b;
+  font-family: Poppins;
+  font-size: 19.4px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 112px;
+}
+
+.total-customers-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.total-customers-second img {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  border: 2px solid #fff;
+}
+
+.total-customers-second h4 {
+  color: #2b2b2b;
+  font-family: Poppins;
+  font-size: 19.4px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 /**********************icons cont************************/
